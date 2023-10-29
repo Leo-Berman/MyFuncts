@@ -1,15 +1,12 @@
 #include<cmath>
 #include<vector>
-#include<iostream>
-#ifndef TokenizeInts
-#define TokenizeInts
-
-
+#ifndef TokenizeInt
+#define TokenizeInt
 // Function to tokenize integers ended up being unused
-vector <int> tokenizeints(int num){
+std::vector <int> TokenizeInts(int num){
     
     // return vector
-    vector <int> ret;
+    std::vector <int> ret;
 
     // find number of digits
     int digits = int(log10(num) + 1);
